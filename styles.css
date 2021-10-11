@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .btn {
+        background-color: purple;
+        color: white;
+        margin: 1rem;
+        border-radius: 6px;
+        padding: 1.5rem 3rem;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btn:active{
+        opacity: .9;
+    }
+}
